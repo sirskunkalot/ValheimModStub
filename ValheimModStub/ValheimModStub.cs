@@ -6,8 +6,10 @@
 
 using BepInEx;
 using HarmonyLib;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using ValheimMod.UnityWrappers;
 
 namespace ValheimModStub
 {
@@ -25,6 +27,9 @@ namespace ValheimModStub
             // Create harmony patches
             m_harmony = new Harmony(PluginGUID);
             m_harmony.PatchAll();
+
+            // Make sure the references for the Unity wrappers are loaded
+            Assembly.GetAssembly(typeof(ItemDropWrapper));
         }
 
 #if DEBUG

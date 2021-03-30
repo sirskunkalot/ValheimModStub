@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Veilheim.UnityWrappers
+namespace ValheimMod.UnityWrappers
 {
     /// <summary>
     /// A wrapper for Valheim's <see cref="ItemDrop" />.

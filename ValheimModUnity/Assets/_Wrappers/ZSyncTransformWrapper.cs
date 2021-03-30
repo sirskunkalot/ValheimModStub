@@ -1,4 +1,4 @@
-namespace Veilheim.UnityWrappers
+namespace ValheimMod.UnityWrappers
 {
     /// <summary>
     /// A wrapper for Valheim's <see cref="ZSyncTransform" />. Put this on your prefabs instead of <see cref="ZSyncTransform" />.
