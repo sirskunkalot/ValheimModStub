@@ -1,3 +1,9 @@
+# Discontinued
+
+This stub is discontinued in favour of the [Jötunn mod stub](https://github.com/Valheim-Modding/JotunnModStub). I will not make changes to this stub anymore, so it might be outdated soon.
+
+# ValheimModStub
+
 A Valheim mod stub project including build tools for debugging your code in Visual Studio and publishing a mod including BepInEx as zip files for Windows and Unix. There is no actual plugin content included, just a bare minimum plugin class. 
 
 # Development Environment Setup
